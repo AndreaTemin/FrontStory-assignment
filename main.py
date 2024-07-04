@@ -1,5 +1,4 @@
 import pandas as pd
-from utils import get_s3_object as get_obj
 # Example usage
 s3_url = 's3://your-bucket-name/your-file.csv'
 df = download_public_s3_object(s3_url)
